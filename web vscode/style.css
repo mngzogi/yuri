@@ -1,0 +1,38 @@
+h1{
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin: 0px;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Gamja Flower', cursive;
+}
+body{
+  background-color: powderblue;
+}
+#topmenu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 93%;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+#topmenu a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Gamja Flower', cursive;
+  display: block;
+  list-style: none;
+  margin-top: 2%;
+}
+#topmenu li{
+  font-size: 23px;
+  text-align: center;
+  list-style: none;
+}
